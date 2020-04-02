@@ -1,0 +1,212 @@
+
+body{
+  color: #40514e;
+  margin:0;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+  /* position: relative; */
+
+}
+/* top container */
+.top{
+background-color:#e3fdfd;
+padding-top: 100px;
+}
+h1{
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+  font-weight: bold;
+}
+/* cloud 1 */
+.c{
+  position:absolute;
+  right: 260px;
+  top: 50px;
+      -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+    opacity: 0.5;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+/* cloud 2 */
+.cc{
+  position: absolute;
+  left: 150px;
+  bottom: 200px;
+ 
+-webkit-animation: fadeinout 4s linear forwards;
+animation: fadeinout 4s linear forwards;
+opacity: 0.5;
+}
+
+@-webkit-keyframes fadeinout {
+50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+50% { opacity: 1; }
+}
+
+/* mountain */
+.m{
+  position:relative;
+  width: 700px;
+  height: 505px;
+  
+}
+hr{
+width:5%;
+border:dotted #e5e4cc 6px;
+border-bottom: 0;
+margin: 70px auto;
+}
+a{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-weight: bold;
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  line-height: 2;
+  width: auto;
+}
+.typo{
+  font-family: 'Merriweather', serif;
+}
+/* middle container */
+.middle{
+margin-top:70px;
+}
+/* profile */
+.profile{
+  border: 10px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+/* Profile image */
+.me{
+  border-radius: 100%;
+  width:15%;
+  margin-top: 20px;
+}
+/* skills */
+.skills{
+line-height: 2;
+text-align:center;
+margin: 90px auto 90px auto;
+}
+/* skill rows */
+.skill-row{
+text-align: left;
+width: 50%;
+margin:90px auto 90px auto;
+}
+
+/* html skill */
+.ht{
+margin-right: 20px;
+width:25%;
+float:left;
+}
+
+/* css skills */
+.cs{
+width:25%;
+float:right;
+margin-left: 20px;
+}
+.contact-me{
+  margin: 10px;
+}
+.contact-msg{
+  width: 30%;
+  margin: 10px auto;
+}
+.btn {
+  margin: 70px auto;
+	-moz-box-shadow:inset 0 1px 7px -13px #d3eef0;
+	-webkit-box-shadow:inset 0 1px 7px -13px #d3eef0;
+	box-shadow:inset 0 1px 7px -13px #d3eef0;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #78efff), color-stop(1, #4cc4be) );
+	background:-moz-linear-gradient( center top, #78efff 5%, #4cc4be 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#78efff', endColorstr='#4cc4be');
+	background-color:#78efff;
+	-webkit-border-top-left-radius:29px;
+	-moz-border-radius-topleft:29px;
+	border-top-left-radius:29px;
+	-webkit-border-top-right-radius:29px;
+	-moz-border-radius-topright:29px;
+	border-top-right-radius:29px;
+	-webkit-border-bottom-right-radius:29px;
+	-moz-border-radius-bottomright:29px;
+	border-bottom-right-radius:29px;
+	-webkit-border-bottom-left-radius:29px;
+	-moz-border-radius-bottomleft:29px;
+	border-bottom-left-radius:29px;
+	text-indent:-5px;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0 #a3a19d;
+}
+.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4cc4be), color-stop(1, #78efff) );
+	background:-moz-linear-gradient( center top, #4cc4be 5%, #78efff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4cc4be', endColorstr='#78efff');
+	background-color:#4cc4be;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+/* bottom container */
+.bottom{
+color:#EAF6F6;
+background-color: #40bfc1;
+padding: 40px;
+}
+.footer-link{
+  color:#11999E;
+  width:20%;
+  margin: 40px;
+}
+.x{
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  padding: 20px 0;
+}
